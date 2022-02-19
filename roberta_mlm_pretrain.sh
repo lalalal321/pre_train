@@ -13,10 +13,10 @@ echo "Run on GPU $GPUID"
 # data
 # readlink命令显示符号链接的实际路径
 PROJECT_ROOT=$(dirname "$(readlink -f "$0")")/
-DATA_DIR=${PROJECT_ROOT}/bio_script/tasks/unlabeled/all_text.txt
+DATA_DIR=${PROJECT_ROOT}all_text.txt
 
 # model
-BERT_MODEL=bert
+BERT_MODEL=bert-base-uncased
 
 # param
 MAX_LENGTH=256
