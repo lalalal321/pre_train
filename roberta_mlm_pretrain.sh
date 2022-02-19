@@ -58,5 +58,3 @@ CUDA_VISIBLE_DEVICES=$GPUID python ${PROJECT_ROOT}/run_language_modeling.py \
     --mlm \
     --line_by_line \
     --dataloader_drop_last
-
-sleep 100
